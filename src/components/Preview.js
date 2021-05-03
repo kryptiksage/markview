@@ -8,6 +8,9 @@ const Preview = () => {
 				id="md_input"
 				className={styles.md_input}
 			></textarea>
+			<textarea name="" id="" className={styles.md_preview} readOnly>
+				Hello
+			</textarea>
 		</div>
 	);
 };
