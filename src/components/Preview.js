@@ -32,8 +32,10 @@ const Preview = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.markdown}>
-				<h3>Markdown</h3>
-				<div className={styles.md_input}>
+				<span className={styles.md_input_head}>
+					<h3>Markdown</h3>
+				</span>
+				<span className={styles.md_input}>
 					<textarea
 						name="md_input"
 						id="md_input"
@@ -41,11 +43,13 @@ const Preview = () => {
 						placeholder="Type here..."
 						onChange={markdownChange}
 					></textarea>
-				</div>
+				</span>
 			</div>
 			<div className={styles.preview}>
-				<h3>Preview</h3>
-				<div className={styles.md_preview}>
+				<span className={styles.md_preview_head}>
+					<h3>Preview</h3>
+				</span>
+				<span className={styles.md_preview}>
 					<ReactMarkdown
 						components={components}
 						style={materialOceanic}
@@ -53,7 +57,7 @@ const Preview = () => {
 					>
 						{markdown}
 					</ReactMarkdown>
-				</div>
+				</span>
 			</div>
 		</div>
 	);
