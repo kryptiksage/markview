@@ -1,21 +1,55 @@
 .container {
 	display: grid;
 	grid-template-columns: 50% 50%;
+	font-family: Fira Code, sans-serif;
+}
+
+.container h3 {
+	font-family: Fira Sans, sans-serif;
+	text-align: center;
+}
+
+.markdown,
+.preview {
+	margin: 10px;
 }
 
 .md_input {
 	height: 70vh;
-	background-color: #2e3440;
 	display: grid;
+	background-color: #eceff4;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .md_input_text {
 	border: none;
 	resize: none;
 	outline: none;
+	font-family: Fira Code, sans-serif;
+	margin: 16px 20px 5px;
+	color: #2e3440;
+	background-color: #eceff4;
+	white-space: pre;
+	height: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #2e3440 #eceff4;
 }
 
 .md_preview {
 	height: 70vh;
 	background-color: #2e3440;
+	display: grid;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.md_preview_text {
+	color: #eceff4;
+	margin: 0 20px 5px;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #eceff4 #2e3440;
 }
