@@ -1,13 +1,29 @@
 .container {
 	display: flex;
 	justify-content: center;
-	min-height: 100vh;
+	text-align: center;
+}
+
+.markdown {
+	flex: 1;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.preview {
+	flex: 1;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .md_input {
-	flex: 1;
+	font-family: "Fira Code", monospace;
+	min-height: 100vh;
 }
 
 .md_preview {
-	flex: 1;
+	font-family: "Fira Code", monospace;
+	min-height: 100vh;
 }
