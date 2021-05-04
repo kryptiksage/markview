@@ -1,0 +1,13 @@
+.container {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.md_input {
+	flex: 1;
+}
+
+.md_preview {
+	flex: 1;
+}
