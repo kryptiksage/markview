@@ -1,6 +1,9 @@
 .container {
 	display: flex;
 	justify-content: center;
+}
+
+h3 {
 	text-align: center;
 }
 
@@ -21,6 +24,7 @@
 .md_input {
 	font-family: "Fira Code", monospace;
 	min-height: 100vh;
+	padding-top: 20px;
 }
 
 .md_preview {
