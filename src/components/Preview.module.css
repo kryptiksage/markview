@@ -6,9 +6,28 @@
 
 .container h3 {
 	font-family: Fira Sans, sans-serif;
-	text-align: center;
+	padding: 10px;
 }
 
+.md_input_head {
+	display: flex;
+	justify-content: center;
+}
+
+.md_input_head h3 {
+	color: #2e3440;
+	background-color: #eceff4;
+}
+
+.md_preview_head {
+	display: flex;
+	justify-content: center;
+}
+
+.md_preview_head h3 {
+	color: #eceff4;
+	background-color: #2e3440;
+}
 .markdown,
 .preview {
 	margin: 10px;
