@@ -1,0 +1,30 @@
+.container {
+	background-color: #2e3440;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 7vh;
+	display: grid;
+	grid-template-columns: 20% 10%;
+	gap: 70%;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.github {
+	fill: none;
+	width: 40px;
+	height: auto;
+}
+
+.markview {
+	height: 40px;
+	width: auto;
+	stroke-dasharray: 300px;
+	stroke-dashoffset: 0px;
+	transition: stroke-dashoffset 2s ease;
+}
+
+.markview:hover {
+	stroke-dashoffset: 300px;
+}
