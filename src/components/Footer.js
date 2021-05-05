@@ -5,8 +5,17 @@ import Markview from "../svg/Markview";
 const Footer = () => {
 	return (
 		<footer className={styles.container}>
-			<Markview className={styles.markview} />
-			<Github className={styles.github} />
+			<div className={styles.title}>
+				<Markview className={styles.markview} />
+			</div>
+			<div className={styles.repo}>
+				<a
+					href="https://github.com/kryptiksage/markview"
+					target="_blank"
+				>
+					<Github className={styles.github} />
+				</a>
+			</div>
 		</footer>
 	);
 };
