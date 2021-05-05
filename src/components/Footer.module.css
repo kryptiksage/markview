@@ -27,6 +27,11 @@
 	width: 2.5rem;
 	height: auto;
 }
+
+.github > path {
+	transition: 1s;
+}
+
 .github:hover {
 	background-color: #eceff4;
 	color: #eceff4;
@@ -38,6 +43,7 @@
 	fill: #2e3440;
 	background-color: #eceff4;
 	border-radius: 50%;
+	transition: 0.5s;
 }
 
 .markview {
