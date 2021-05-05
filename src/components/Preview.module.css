@@ -47,11 +47,12 @@
 	resize: none;
 	outline: none;
 	font-family: Fira Code, sans-serif;
-	margin: 16px 20px 5px;
+	margin: 16px 15px 5px 20px;
 	color: #2e3440;
 	background-color: #eceff4;
 	white-space: pre;
 	height: auto;
+	min-width: 0;
 	scrollbar-width: thin;
 	scrollbar-color: #2e3440 #eceff4;
 }
